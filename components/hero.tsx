@@ -13,7 +13,7 @@ export default function Hero() {
         Go caving on your next Hawai'i vacation. No experience required.
       </p>
       <p className={styles.description}>
-        <a>Hawai'i Island</a> or the <a>Big Island</a> is the largest island in the State of Hawai'i. 
+        <a>Hawai'i Island</a> or the <a>Big Island</a> is the largest island in the State of Hawai'i. Most of the caves are here.
       </p>
       <p className={styles.description}>
         A handful of <a>cavers</a> call the island home.
@@ -28,13 +28,13 @@ export default function Hero() {
         For National Speleological Society members it is free to stay at the <a>Ka'u Cave Farm House</a>, as long as it serves as a base from which to cave. 
       </p>
       <p className={styles.description}>
-        <a>Hawai'i Cave Law</a> has some of the strongest penalties in the United States for cave trespassing and vandalism. 
+        <a>Hawai'i Cave Law</a> has some of the strongest penalties in the United States for cave trespassing and vandalism. Be respectful.
       </p>
       <p className={styles.description}>
-        There is no shortage of fun activities to do while visiting Hawai'i. If you want recommendations, just <a>ask</a>.
+        There are lots of fun things to do outside of caving. If you want our opinion, just <a>ask</a>.
       </p>
       <p className={styles.description}>
-        Cave access is made possible by local conservation efforts by <a>Cave Conservancy of Hawai'i</a> and <a>National Speleological Society</a>. We welcome donations.
+        Cave access is made possible by grassroots conservation efforts by <a>Cave Conservancy of Hawai'i</a> and <a>National Speleological Society</a>. We welcome donations.
       </p>
       <p className={styles.description}>
         Want to go on a cave trip? <a>hawaiigrotto@gmail.com</a>
