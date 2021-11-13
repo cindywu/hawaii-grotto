@@ -1,9 +1,25 @@
 .container {
-  padding: 0 2rem;
-  margin: 2rem 4rem;
+  padding: 2rem 6rem;
+  font-size: 1.2rem;
+  position: fixed;
+  background: #1b201c;
+  width: 100%;
+  border-bottom: 1px solid #c5fb4c;
 }
 
 .home:hover {
   color: #c5fb4c;
   cursor: pointer;
+}
+
+.home {
+  font-weight: 500;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 2rem 2rem 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
 }

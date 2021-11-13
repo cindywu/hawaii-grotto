@@ -22,13 +22,11 @@ const Home: NextPage = () => {
           </h1>
         </div>
 
-
         <p className={styles.description}>
-          Fly to Hawaii. Safely explore the underground. No experience required.
+          Go caving on your next Hawaii vacation. No experience required.
         </p>
-
-
       </main>
+      
     </div>
   )
 }
