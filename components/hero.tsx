@@ -36,6 +36,9 @@ export default function Hero() {
       <p className={styles.description}>
         Cave access is made possible by local conservation efforts by <a>Cave Conservancy of Hawai'i</a> and <a>National Speleological Society</a>. We welcome donations.
       </p>
+      <p>
+        Want to go on a cave trip? Email us at <a>hawaiigrotto@gmail.com</a>.
+      </p>
     </div>
   )
 }
