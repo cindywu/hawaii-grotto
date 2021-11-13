@@ -1,15 +1,10 @@
 .container {
-  padding: 0;
-}
-
-.main {
   min-height: 100vh;
   padding: 4rem 0;
-  flex: 1;
-  display: flex;
   flex-direction: column;
   justify-content: left;
   align-items: left;
+  width: 60%;
 }
 
 .hero {
@@ -40,20 +35,25 @@
   font-size: 1.5rem;
 }
 
-.subtitle {
+.description a {
+  color: #c5fb4c;
+  text-decoration: none;
+}
+
+.subTitle {
   padding: 0 6rem;
-  margin: 4rem 0;
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: hsl(0, 0%, 90%);
 }
 
 
 @media (max-width: 600px) {
-  .main {
+  .container {
     min-height: 100vh;
     padding: 4rem 0;
     margin: 0 auto;
+    width: 100%;
   }
   
   .hero {
@@ -71,6 +71,10 @@
   
   .title,
   .description {
+    padding: 0 1rem;
+  }
+
+  .subTitle {
     padding: 0 1rem;
   }
 }
