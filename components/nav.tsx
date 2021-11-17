@@ -19,7 +19,7 @@ export default function Nav() {
       <div className={styles.home}>
         Hawaii Grotto
       </div>
-      { isBreakpoint ? (
+      {/* { isBreakpoint ? (
         <div
           className={styles.hamburger}
           onClick={handleHamburgerClick}
@@ -33,7 +33,7 @@ export default function Nav() {
         >
           Contact us
         </button>
-      )}
+      )} */}
     </div>
   )
 }

@@ -2,6 +2,19 @@ import React from 'react'
 import styles from './hero.module.css'
 
 export default function Hero() {
+  const HAWAII_ISLAND_URL = "https://en.wikipedia.org/wiki/Hawaii_(island)"
+  const VOLCANOES_NATL_PARK_URL = "https://www.nps.gov/havo/index.htm"
+  const KAUMANA_CAVES_URL = "https://www.alltrails.com/trail/hawaii/hawaii/kaumana-caves?u=i"
+  const KULA_KAI_CAVERNS_URL = "http://www.kulakaicaverns.com/"
+  const KAZUMURA_CAVE_URL = "https://kazumuracave.com/"
+  const HAWAII_TRAVEL_URL = "https://www.gohawaii.com/islands/hawaii-big-island"
+  const HAWAII_SAFE_TRAVELS_URL = "https://travel.hawaii.gov/#/"
+  const KAU_CAVE_FARM_URL = "https://www.facebook.com/KauCaveFarm/"
+  const CAVE_LAW_URL = "https://law.justia.com/codes/hawaii/2011/division1/title1/chapter6d/"
+  const CCH_DONATE_URL = "https://www.paypal.com/donate/?hosted_button_id=MF82S88EDD8EW"
+  const NSS_DONATE_URL = "https://members.caves.org/donations/donate.asp?id=16842"
+
+  
   return (
     <div className={styles.container}>
       <div className={styles.hero}>
@@ -13,28 +26,28 @@ export default function Hero() {
         Go caving on your next Hawai'i vacation. No experience required.
       </p>
       <p className={styles.description}>
-        <a>Hawai'i Island</a> or the <a>Big Island</a> is the largest island in the State of Hawai'i. Most of the caves are here.
+        <a href={HAWAII_ISLAND_URL} target="_blank">Hawai'i Island</a> or the <a href={HAWAII_ISLAND_URL} target="_blank">Big Island</a> is the largest island in the State of Hawai'i. Most of the caves are here.
       </p>
       <p className={styles.description}>
-        A handful of <a>cavers</a> call the island home.
+        A handful of cavers call the island home.
       </p>
       <p className={styles.description}>
-        While tourists are drawn to <a>Hawai'i Volcanoes National Park</a> or <a>Kaumana Caves State Park</a>, we also have plenty of wild caves including <a>Kula Kai Caverns</a> and <a>Kazumura Cave</a>.
+        While tourists are drawn to <a href={VOLCANOES_NATL_PARK_URL} target="_blank">Hawai'i Volcanoes National Park</a> or <a href={KAUMANA_CAVES_URL} target="_blank">Kaumana Caves State Park</a>, we also have plenty of wild caves including <a href={KULA_KAI_CAVERNS_URL} target="_blank">Kula Kai Caverns</a> and <a href={KAZUMURA_CAVE_URL} target="_blank">Kazumura Cave</a>.
       </p>
       <p className={styles.description}>
-        It is safe to travel to Hawai'i. Proof of COVID-19 vaccination or a negative COVID-19 test may be accepted to avoid quarantine. Specific details can be found at <a>travel.hawaii.gov</a>.
+        It is safe to travel to <a href={HAWAII_TRAVEL_URL} target="_blank">Hawai'i</a>. Proof of COVID-19 vaccination or a negative COVID-19 test may be accepted to avoid quarantine. Specific details can be found at <a href={HAWAII_SAFE_TRAVELS_URL} target="_blank">travel.hawaii.gov</a>.
       </p>
       <p className={styles.description}>
-        For National Speleological Society members it is free to stay at the <a>Ka'u Cave Farm House</a>, as long as it serves as a base from which to cave. 
+        For National Speleological Society members it is free to stay at the <a href={KAU_CAVE_FARM_URL}>Ka'u Cave Farm House</a>, as long as it serves as a base from which to cave. 
       </p>
       <p className={styles.description}>
-        <a>Hawai'i Cave Law</a> has some of the strongest penalties in the United States for cave trespassing and vandalism. Be respectful.
+        <a href={CAVE_LAW_URL} target="_blank">Hawai'i Cave Law</a> has some of the strongest penalties in the United States for cave trespassing and vandalism. Be respectful.
       </p>
       <p className={styles.description}>
         There are lots of fun things to do outside of caving. If you want our opinion, just <a>ask</a>.
       </p>
       <p className={styles.description}>
-        Cave access is made possible by grassroots conservation efforts by <a>Cave Conservancy of Hawai'i</a> and <a>National Speleological Society</a>. We welcome donations.
+        Cave access is made possible by grassroots conservation efforts by <a href={CCH_DONATE_URL}target="_blank">Cave Conservancy of Hawai'i</a> and <a href={NSS_DONATE_URL} target="_blank">National Speleological Society</a>. We welcome donations.
       </p>
       <p className={styles.description}>
         Want to go on a cave trip? <a>hawaiigrotto@gmail.com</a>
