@@ -14,6 +14,9 @@ export default function Hero() {
   const CCH_DONATE_URL = "https://www.paypal.com/donate/?hosted_button_id=MF82S88EDD8EW"
   const NSS_DONATE_URL = "https://members.caves.org/donations/donate.asp?id=16842"
 
+  function handleClick() {
+    console.log('navigator.clipboard', navigator.clipboard.readText.name)
+  }
   
   return (
     <div className={styles.container}>
@@ -50,7 +53,8 @@ export default function Hero() {
         Cave access is made possible by grassroots conservation efforts by <a href={CCH_DONATE_URL}target="_blank">Cave Conservancy of Hawai'i</a> and <a href={NSS_DONATE_URL} target="_blank">National Speleological Society</a>. We welcome donations.
       </p>
       <p className={styles.description}>
-        Want to go on a cave trip? <a>hawaiigrotto@gmail.com</a>
+        Want to go on a cave trip? <a className={styles.email} onClick={handleClick}>hawaiigrotto@gmail.com</a>
+
       </p>
     </div>
   )

@@ -47,6 +47,10 @@
   color: hsl(0, 0%, 90%);
 }
 
+.email {
+  cursor: pointer;
+}
+
 
 @media (max-width: 600px) {
   .container {
