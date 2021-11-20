@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './hero.module.css'
+import Image from 'next/image'
 
 export default function Hero() {
   const HAWAII_ISLAND_URL = "https://en.wikipedia.org/wiki/Hawaii_(island)"
@@ -22,6 +23,14 @@ export default function Hero() {
     <div className={styles.container}>
       <div className={styles.hero}>
         <h1 className={styles.title}>
+          <div>
+          <Image
+            src="/images/hawaii-grotto.jpg"
+            alt="Hawaii grotto caving photo"
+            width={680}
+            height={510}
+          />
+          </div>
           Explore caves in <a>Hawai'i</a>
         </h1>
       </div>
@@ -53,8 +62,10 @@ export default function Hero() {
         Cave access is made possible by grassroots conservation efforts by <a href={CCH_DONATE_URL}target="_blank">Cave Conservancy of Hawai'i</a> and <a href={NSS_DONATE_URL} target="_blank">National Speleological Society</a>. We welcome donations.
       </p>
       <p className={styles.description}>
-        Want to go on a cave trip? <a className={styles.email} onClick={handleClick}>hawaiigrotto@gmail.com</a>
-
+        <a>Hawai'i Cave Week</a> is scheduled for January 31 - February 6, 2022. All are invited. Email us for more information.
+      </p>
+      <p className={styles.description}>
+      Want to get in touch? <a className={styles.email} onClick={handleClick}>hawaiigrotto@gmail.com</a>
       </p>
     </div>
   )
