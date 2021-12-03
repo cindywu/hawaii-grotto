@@ -14,6 +14,7 @@ export default function Hero() {
   const CAVE_LAW_URL = "https://law.justia.com/codes/hawaii/2011/division1/title1/chapter6d/"
   const CCH_DONATE_URL = "https://www.paypal.com/donate/?hosted_button_id=MF82S88EDD8EW"
   const NSS_DONATE_URL = "https://members.caves.org/donations/donate.asp?id=16842"
+  const KEVIN_URL = "http://adventureinhawaii.com/"
 
   function handleClick() {
     console.log('navigator.clipboard', navigator.clipboard.readText.name)
@@ -56,7 +57,7 @@ export default function Hero() {
         <a href={CAVE_LAW_URL} target="_blank">Hawai'i Cave Law</a> has some of the strongest penalties in the United States for cave trespassing and vandalism. Be respectful.
       </p>
       <p className={styles.description}>
-        There are lots of fun things to do outside of caving. If you want our opinion, just <a>ask</a>.
+        There are lots of fun things to do outside of caving. If you want our opinion, just <a>ask</a>. We recommend booking tours with this <a href={KEVIN_URL} target="_blank">caver-owned company</a>.
       </p>
       <p className={styles.description}>
         Cave access is made possible by grassroots conservation efforts by <a href={CCH_DONATE_URL}target="_blank">Cave Conservancy of Hawai'i</a> and <a href={NSS_DONATE_URL} target="_blank">National Speleological Society</a>. We welcome donations.
