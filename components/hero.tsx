@@ -63,7 +63,7 @@ export default function Hero() {
         Cave access is made possible by grassroots conservation efforts by <a href={CCH_DONATE_URL}target="_blank">Cave Conservancy of Hawai'i</a> and <a href={NSS_DONATE_URL} target="_blank">National Speleological Society</a>. We welcome donations.
       </p>
       <p className={styles.description}>
-        <a>Hawai'i Cave Week</a> is scheduled for January 31 - February 5, 2023. All are invited. Email us for more information.
+        <a>Hawai'i Cave Week</a> is scheduled for January 30 - February 5, 2023. All are invited. Email us for more information.
       </p>
       <p className={styles.description}>
       Want to get in touch? <a className={styles.email} onClick={handleClick}>hawaiigrotto@gmail.com</a>
