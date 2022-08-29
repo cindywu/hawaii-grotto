@@ -144,7 +144,7 @@ export default function CaversFavorites() {
       </p>
       <p className={styles.description}>
         There is camping available here on Hawai’i Island. Visit the link below for more information regarding camping.
-        <p><a href="https://www.lovebigisland.com/big-island-camping/" target="_blank">lovebigisland.com/big-island-camping</a></p> If you need camping gear, some local cavers may have some camping gear to loan. Just reach out to us at <a>hawaiigrotto@gmail.com</a> and we will help out as we can.
+        <p><a href="https://www.lovebigisland.com/big-island-camping/" target="_blank">lovebigisland.com/big-island-camping</a></p> If you need camping gear, some local cavers may have some camping gear to loan. Just reach out to us at <a>kfdrck@gmail.com</a> and we will help out as we can.
 
       </p>
       <p className={styles.description}>

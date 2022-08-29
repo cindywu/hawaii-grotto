@@ -66,7 +66,7 @@ export default function Hero() {
         <a>Hawai'i Cave Week</a> is scheduled for January 30 - February 5, 2023. All are invited. Email us for more information.
       </p>
       <p className={styles.description}>
-      Want to get in touch? <a className={styles.email} onClick={handleClick}>hawaiigrotto@gmail.com</a>
+      Want to get in touch? <a className={styles.email} onClick={handleClick}>kfdrck@gmail.com</a>
       </p>
     </div>
   )

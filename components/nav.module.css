@@ -24,11 +24,7 @@
   font-weight: 500;
   padding: 1rem;
   font-size: 1.2rem;
-}
-
-.home:hover {
-  color: #c5fb4c;
-  cursor: pointer;
+  width: 100%;
 }
 
 
@@ -44,4 +40,19 @@
   .hamburger {
     padding: 0;
   }
+}
+
+.navItems {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.right span {
+  padding: 0 1rem;
+}
+
+.link:hover {
+  color: #c5fb4c;
+  cursor: pointer;
 }
