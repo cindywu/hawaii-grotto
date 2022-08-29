@@ -7,7 +7,7 @@ export default function CaveWeek2023() {
     <div className={styles.container}>
       <div className={styles.hero}>
         <h1 className={styles.title}>
-          Hawai'i Cave Week <a>2023</a>
+          Hawai‘i Cave Week <a>2023</a>
         </h1>
       </div>
       <p className={styles.description}>

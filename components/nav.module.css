@@ -40,6 +40,10 @@
   .hamburger {
     padding: 0;
   }
+
+  .link {
+    font-size: .8rem;
+  }
 }
 
 .navItems {

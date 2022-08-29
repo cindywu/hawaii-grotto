@@ -81,4 +81,10 @@
   .subTitle {
     padding: 0 1rem;
   }
+
+  .container ol {
+    padding: 0 3rem;
+  }
 }
+
+
