@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect } from 'react'
 import styles from './nav.module.css'
 import { useMediaQuery } from '../utils/useMediaQuery'
 
-export default function Nav() {
+export default function Nav({route}: any) {
 
   const isBreakpoint = useMediaQuery(600)
 
@@ -13,11 +13,17 @@ export default function Nav() {
   function handleContactUsClick() {
     console.log('contactUsClicked!')
   }
-  
+
   return (
     <div className={styles.container}>
       <div className={styles.home}>
-        Hawaii Grotto
+        <span>Hawai‘i Grotto</span>
+        {route &&
+          <>
+            <span> {'›'} </span>
+            <span>{route}</span>
+          </>
+        }
       </div>
       {/* { isBreakpoint ? (
         <div
@@ -27,7 +33,7 @@ export default function Nav() {
           ≡
         </div>
       ) : (
-        <button 
+        <button
           className={styles.btn}
           onClick={handleContactUsClick}
         >
