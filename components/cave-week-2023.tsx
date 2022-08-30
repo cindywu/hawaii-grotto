@@ -52,7 +52,7 @@ export default function CaveWeek2023() {
         </ul>
       </p>
       <p className={styles.description}>
-        Airbnb and VBRO are also options for visitors to the Island, as well as some other local cavers may have limited availability in their homes during Cave Week.
+        Airbnb and VRBO are also options for visitors to the Island, as well as some other local cavers may have limited availability in their homes during Cave Week.
       </p>
       <p className={styles.description}>
         <a>Car Rentals</a>
