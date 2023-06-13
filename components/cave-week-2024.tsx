@@ -1,15 +1,15 @@
 import React from 'react'
 import styles from './hero.module.css'
 
-export default function CaveWeek2023() {
+export default function CaveWeek2024() {
   return (
     <div className={styles.container}>
       <div className={styles.hero}>
         <h1 className={styles.title}>
-          Hawai‘i Cave Week <a>2023</a>
+          Hawai‘i Cave Week <a>2024</a>
         </h1>
       </div>
-      <p className={styles.description}>January 30 - February 5, 2023</p>
+      <p className={styles.description}>January 29 - February 2, 2024</p>
       <p className={styles.description}>Ocean View, HI</p>
       <p className={styles.description}>
         <a>General Information</a>

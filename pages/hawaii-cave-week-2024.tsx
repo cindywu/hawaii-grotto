@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../styles/home.module.css'
 import Head from 'next/head'
 import Nav from '../components/nav'
-import CaversFavorites from '../components/cavers-favorites'
+import CaveWeek2024 from '../components/cave-week-2024'
 
 export default function HawaiiCaveWeek2024() {
   return (
@@ -12,8 +12,8 @@ export default function HawaiiCaveWeek2024() {
         <meta name='description' content='Explore caves on the Big Island' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Nav route="Hawai‘i Island Caver's Favorites" />
-      <CaversFavorites />
+      <Nav route='Hawai‘i Cave Week 2024' />
+      <CaveWeek2024 />
     </div>
   )
 }
