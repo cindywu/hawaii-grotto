@@ -80,16 +80,12 @@ export default function Hero() {
         <a href={HAWAII_TRAVEL_URL} target='_blank'>
           Hawai'i
         </a>
-        . Proof of COVID-19 vaccination or a negative COVID-19 test may be
-        accepted to avoid quarantine. Specific details can be found at{' '}
+        . Current travel and Covid-19 information may be found at{' '}
         <a href={HAWAII_SAFE_TRAVELS_URL} target='_blank'>
           travel.hawaii.gov
         </a>
         .
       </p>
-      {/* <p className={styles.description}>
-        For National Speleological Society members it is free to stay at the <a href={KAU_CAVE_FARM_URL}>Ka'u Cave Farm House</a>, as long as it serves as a base from which to cave.
-      </p> */}
       <p className={styles.description}>
         <a href={CAVE_LAW_URL} target='_blank'>
           Hawai'i Cave Law
@@ -117,7 +113,7 @@ export default function Hero() {
         . We welcome donations.
       </p>
       <p className={styles.description}>
-        <a>Hawai'i Cave Week</a> is scheduled for January 30 - February 5, 2023.
+        <a>Hawai'i Cave Week</a> is scheduled for January 29 - February 2, 2024
         All are invited. Email us for more information.
       </p>
       <p className={styles.description}>
