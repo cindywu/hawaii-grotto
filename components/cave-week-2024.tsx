@@ -9,7 +9,7 @@ export default function CaveWeek2024() {
           Hawai‘i Cave Week <a>2024</a>
         </h1>
       </div>
-      <p className={styles.description}>January 29 - February 2, 2024</p>
+      <p className={styles.description}>January 29 - February 4, 2024</p>
       <p className={styles.description}>Ocean View, HI</p>
       <p className={styles.description}>
         <a>General Information</a>
