@@ -113,7 +113,7 @@ export default function Hero() {
         . We welcome donations.
       </p>
       <p className={styles.description}>
-        <a>Hawai'i Cave Week</a> is scheduled for January 29 - February 2, 2024.
+        <a>Hawai'i Cave Week</a> is scheduled for January 29 - February 4, 2024.
         All are invited. Email us for more information.
       </p>
       <p className={styles.description}>
