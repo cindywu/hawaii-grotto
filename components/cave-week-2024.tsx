@@ -47,7 +47,7 @@ export default function CaveWeek2024() {
         <a>Ka’u Cave Farm</a>
       </p>
       <p className={styles.description}>
-        There are limited accommodations at Ka’u Cave Farm. If you would like to
+        {/* There are limited accommodations at Ka’u Cave Farm. If you would like to
         stay here, you must be fully vaccinated. There are two bedrooms that
         will sleep up to 5 people in each room. There are shared bathrooms
         available, and you will need to bring your own food/drinks. There is a
@@ -55,7 +55,8 @@ export default function CaveWeek2024() {
         freezer and cooking/eating dishes are furnished. You must love dogs, as
         they will be sharing their home with you as well as their humans. There
         is no cost to stay here as long as your activities are cave related
-        and/or cave week related. You must also be a member of the NSS.
+        and/or cave week related. You must also be a member of the NSS. */}
+        Please be advised that due to John’s health, no accommodations will be available at Ka’u Cave Farm. We will still have our annual meeting, presentations, and potluck dinners here at the farm. Mahalo for your understanding, and please send positive, healing vibes to John and Mary. If you’re visiting outside of Cave Week, be sure to stop in and visit with John and Mary.
       </p>
       <p className={styles.description}>
         <a>Camping</a>
