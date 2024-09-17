@@ -82,6 +82,13 @@ export default function CaveWeek2025() {
         and are in need of camp gear, please reach out to us via
         hawaiigrotto808@gmail.com.
       </p>
+
+      <p className={styles.description}>
+        There will be a few spots for primitive camping at The Cabin just down
+        the road from Ka'u Cave Farm. If you are interested in camping, please
+        let us know as soon as possible as space is very limited. We have a
+        small amount of camping gear available to lend.
+      </p>
       <p className={styles.description}>
         You can also check into renting campervans while visiting the island.
         Below are a couple of links to campervan rental companies.
