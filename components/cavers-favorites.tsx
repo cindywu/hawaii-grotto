@@ -165,6 +165,12 @@ export default function CaversFavorites() {
       </p>
       <ol className={styles.description}>
         <li>
+          <a>El Encanto Food Truck</a> located at Miranda's Coffee Farm. The
+          food here is made to order, and is some of the best around. Mexican
+          and South American specialties. Prices are reasonable, and you will
+          leave here with leftovers.
+        </li>
+        <li>
           <a>Taco Tita</a> is located in Na’alehu across the street from
           Punalu’u Bakery. This is the only Mexican restaurant currently near
           Ocean View. It’s a little “hole in the wall” type place, but the food
