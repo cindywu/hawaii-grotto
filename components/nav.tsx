@@ -1,18 +1,18 @@
-import React, { useState, useCallback, useEffect } from 'react'
-import styles from './nav.module.css'
-import { useMediaQuery } from '../utils/useMediaQuery'
-import { useRouter } from 'next/router'
+import React, { useState, useCallback, useEffect } from "react";
+import styles from "./nav.module.css";
+import { useMediaQuery } from "../utils/useMediaQuery";
+import { useRouter } from "next/router";
 
 export default function Nav({ route }: any) {
-  const isBreakpoint = useMediaQuery(600)
-  const router = useRouter()
+  const isBreakpoint = useMediaQuery(600);
+  const router = useRouter();
 
   function handleHamburgerClick() {
-    console.log('hamburgerClicked!')
+    console.log("hamburgerClicked!");
   }
 
   function handleContactUsClick() {
-    console.log('contactUsClicked!')
+    console.log("contactUsClicked!");
   }
 
   return (
@@ -33,7 +33,7 @@ export default function Nav({ route }: any) {
             </span>
             <span
               className={styles.link}
-              onClick={() => router.push(`/hawaii-cave-week-2024`)}
+              onClick={() => router.push(`/hawaii-cave-week-2025`)}
             >
               Cave Week
             </span>
@@ -56,5 +56,5 @@ export default function Nav({ route }: any) {
         </button>
       )} */}
     </div>
-  )
+  );
 }
